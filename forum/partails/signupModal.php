@@ -60,7 +60,7 @@ if($showAlert){
                 <h1 class="modal-title fs-5" id="singupModalLabel">Signup for an iDiscuss Accounnt</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form action=" /phpvicky/frum/partails/signup.php" method="POST">
+            <form action=" /phpvicky/forum/partails/signup.php" method="POST">
 
             <div class="modal-body">
                     <div class="mb-3">

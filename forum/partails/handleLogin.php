@@ -19,7 +19,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             echo 'loggedin'.$user;
 
         }
-        header ("Location: /phpvicky/frum/forum.php");
+        header ("Location: /phpvicky/forum/forum.php");
     }
 
 

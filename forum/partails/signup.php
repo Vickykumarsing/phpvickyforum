@@ -24,7 +24,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
             if($result){
                 $showAlert = true;
 
-                header ("location: /phpvicky/frum/forum.php?signupsuccess=true");
+                header ("location: /phpvicky/forum/forum.php?signupsuccess=true");
                 exit();
                 
             }
@@ -35,7 +35,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
             $showError = "passwords is not match";
         }
     }
-    header("Location: /phpvicky/frum/forum.php?signupasuccess=false&error=$showError");
+    header("Location: /phpvicky/forum/forum.php?signupasuccess=false&error=$showError");
      
 }
   
