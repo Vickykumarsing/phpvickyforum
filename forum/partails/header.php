@@ -46,7 +46,7 @@ echo '<nav class="navbar navbar-expand-lg  text-light bg-dark">
   
     <div class=" row row-col mx-2">
       <p class=" col-9 text-light my-2 mx-2"> Welcome '.$_SESSION['useremail'].'</p>
-      <a href="/phpvicky/frum/partails/loggout.php" class=" col-3 btn btn-outline-primary ml-2"> Logout </a> 
+      <a href="/phpvicky/forum/partails/loggout.php" class=" col-3 btn btn-outline-primary ml-2"> Logout </a> 
       </div>
       ';
     }
