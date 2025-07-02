@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en"> 
 
 <head>
     <meta charset="utf-8">
@@ -115,8 +115,7 @@
         $result = mysqli_query($conn, $sql );
         $noResult = true;
         while($row = mysqli_fetch_assoc($result)){
-            $noResult = false;
-            $id = $row['thread_id'];
+            
             $title = $row['thread_title'];
             $desc = $row['thread_desc'];
             $thread_time = $row['timestamp'];

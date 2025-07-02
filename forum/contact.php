@@ -45,7 +45,7 @@
     
     ?>
     <div class="container">
-        <form action="forum.php" method="post">
+        <form action="/forum.php" method="post">
             <div class="mb-3">
                 <div class="mb-3">
                     <label for="name" class="form-label">Full Name </label>
